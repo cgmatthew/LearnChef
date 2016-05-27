@@ -1,0 +1,11 @@
+
+vagrant init hashicorp/precise64
+vagrant up
+vagrant ssh
+vagrant provision
+vagrant reload --provision
+vagrant destroy
+
+
+// Sample to run a chef recipe in a cookbook.
+sudo chef-client --local-mode --runlist 'recipe[learn_chef_apache2]'
