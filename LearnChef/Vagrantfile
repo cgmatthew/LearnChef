@@ -65,9 +65,9 @@ Vagrant.configure(2) do |config|
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
-  #sudo apt-get install curl --yes > /dev/null
-  #curl https://omnitruck.chef.io/install.sh | sudo bash -s -- -c current -P chefdk
-  #sudo ln -s /vagrant /home/vagrant/work
+  sudo apt-get install curl --yes > /dev/null
+  curl https://omnitruck.chef.io/install.sh | sudo bash -s -- -c current -P chefdk
+  sudo ln -s /vagrant /home/vagrant/work
   sudo cp -R /home/vagrant/work/* /home/vagrant/
   sudo chown -R vagrant:vagrant /home/vagrant
   #   sudo apt-get update
