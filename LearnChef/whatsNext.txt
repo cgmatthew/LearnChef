@@ -1,0 +1,9 @@
+https://docs.chef.io/install_dk.html
+https://learn.chef.io/manage-a-node/ubuntu/get-set-up/
+https://learn.chef.io/local-development/ubuntu/get-set-up/
+https://learn.chef.io/local-development/ubuntu/
+https://learn.chef.io/tutorials/
+
+// Get local workstation running.
+// Get Test Infrastructure working
+//Start branching out
