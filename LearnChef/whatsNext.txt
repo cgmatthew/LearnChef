@@ -7,3 +7,7 @@ https://learn.chef.io/tutorials/
 // Get local workstation running.
 // Get Test Infrastructure working
 //Start branching out
+
+
+http://www.vogella.com/tutorials/EclipseGit/article.html
+https://guides.github.com/
