@@ -11,3 +11,9 @@ https://learn.chef.io/tutorials/
 
 http://www.vogella.com/tutorials/EclipseGit/article.html
 https://guides.github.com/
+
+
+
+https://learn.chef.io/manage-a-web-app/ubuntu/configure-mysql/
+http://www.vogella.com/tutorials/EclipseGit/article.html
+https://github.com/cgmatthew/LearnChef

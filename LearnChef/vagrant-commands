@@ -13,3 +13,14 @@ sudo chef-client --local-mode --runlist 'recipe[learn_chef_apache2]'
 sudo apt-get install curl --yes > /dev/null
 curl https://omnitruck.chef.io/install.sh | sudo bash -s -- -c current -P chefdk
 chef verify
+
+
+//chef commands
+
+kitchen list - lists available kitchens
+kitchen create
+kitchen converge - to converge (test and resolve)
+kitchen login - to log in to your instance
+kitchen destroy - destroy's your kitchen
+
+
